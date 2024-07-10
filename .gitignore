@@ -16,7 +16,6 @@ venv.back/
 
 # Fichiers Excel log 
 *.xlsx
-*.txt
 pip-log.txt
 
 
