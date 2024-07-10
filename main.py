@@ -156,7 +156,7 @@ class ExcelComparatorApp:
                 messagebox.showerror("Erreur", "Aucune comparaison n'a été effectuée. Veuillez comparer d'abord les fichiers Excel.")
                 return
 
-            file_path = filedialog.asksaveasfilename(defaultextension=".txt", filetypes=[("Fichiers texte", "*.txt")])
+            file_path = filedialog.asksaveasfilename(defaultextension=".log", filetypes=[("Fichiers log", "*.log")])
             if file_path:
                 with open(file_path, 'w') as file:
                     file.write("Index\tValue from File 1\tValue from File 2\tDifférence\n")
