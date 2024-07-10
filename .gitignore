@@ -1,0 +1,57 @@
+*.pyc
+__pycache__/
+
+# Environnement virtuel 
+venv/
+.env 
+.venv
+ENV/
+env.back/
+venv.back/
+
+.idea/
+
+# Fichiers Jupyter Notebook (si utilisés)
+.ipynb_checkpoints/
+
+# Fichiers Excel log 
+*.xlsx
+*.txt
+pip-log.txt
+
+
+# Fichiers de sauvegarde
+*.bak
+*.swp
+*~.nib
+*.swp
+*.swo
+
+# Fichiers de configuration
+*.ini
+*.cfg
+*.conf
+*.config
+*.env
+
+# Fichiers de logs
+*.log
+*.log.*
+*.log-*
+*.log/*
+
+# Fichiers de sauvegarde
+*.bak
+*.swp
+*~.nib
+*.swp
+*.swo
+
+# Fichiers compilés
+*.exe
+*.dll
+*.so
+*.dylib
+
+
+Tkinter/
