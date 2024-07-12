@@ -10,7 +10,7 @@ This Tkinter-based application allows users to compare data between two Excel fi
 - Export comparison results to Excel (.xlsx) or a  log file (.LOG).
 
 ## Requirements
-- Python 3.x
+- Python 3.x (version)
 - pandas library (`pip install pandas`)
 - tkinter library (usually included with Python installations)
 
